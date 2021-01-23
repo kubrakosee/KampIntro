@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace OOP1
+{
+   public class ProductManager
+    {
+        /*aslında parantez içinde yazdığımız bana bir tane ürün 
+         ver diyoruz yani parametre buna aslında
+        encapsulation diyoruz
+        */
+        public void Add(Product product)
+        {
+            Console.WriteLine(product.ProductName + "Eklendi.");
+        }
+        public void Update(Product product)
+        {
+            Console.WriteLine(product.ProductName + "Güncellendi.");
+        }
+    }
+}
